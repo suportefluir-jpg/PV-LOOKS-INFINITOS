@@ -109,12 +109,12 @@ export default function App() {
           {
             title: "O Guia “Intenção do Dia”",
             text: "A bússola que você precisava. Aprenda a definir a mensagem que quer passar antes de tocar nas roupas, garantindo que sua imagem esteja sempre alinhada com seus objetivos.",
-            image: "https://picsum.photos/seed/guide1/400/500"
+            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/1.png?raw=true"
           },
           {
             title: "O Dicionário de Estilos e Intenções",
             text: "Uma lista completa com cada estilo e a intenção por trás dele. Você nunca mais vai ficar na dúvida se o seu look está transmitir poder, sofisticação ou acessibilidade.",
-            image: "https://picsum.photos/seed/guide2/400/500"
+            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/2.png?raw=true"
           },
           {
             title: "O Radar de Peças Estratégicas",
