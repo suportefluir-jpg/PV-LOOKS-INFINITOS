@@ -19,7 +19,7 @@ export const Hero: React.FC<{
           </div>
         )}
         
-        <h1 className="text-2xl md:text-4xl lg:text-5xl leading-tight mb-4 max-w-4xl mx-auto">
+        <h1 className="text-xl md:text-2xl lg:text-3xl leading-tight mb-4 max-w-4xl mx-auto">
           {headline}
         </h1>
 
