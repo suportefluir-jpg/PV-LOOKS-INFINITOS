@@ -59,14 +59,14 @@ export const Hero: React.FC<{
                 </div>
               </>
             ) : (
-              <div className="relative max-w-2xl overflow-hidden rounded-card shadow-2xl">
-                <img 
-                  src={gallery[0]} 
-                  alt="Hero" 
-                  className="w-full h-auto"
-                  referrerPolicy="no-referrer"
-                />
-              </div>
+            <div className="relative max-w-2xl">
+              <img 
+                src={gallery[0]} 
+                alt="Hero" 
+                className="w-full h-auto"
+                referrerPolicy="no-referrer"
+              />
+            </div>
             )}
           </div>
         </FadeIn>

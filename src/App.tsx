@@ -12,7 +12,7 @@ export default function App() {
     <div className="min-h-screen">
       {/* 1. Hero */}
       <Hero 
-        logo="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/LOGO.png?raw=true"
+        logo="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/LOGO.png"
         headline="Descubra como montar looks diferentes todos os dias, sem precisar saber qual é o seu estilo e perder dinheiro com peças que não combinam com você"
         badges={[
           "USANDO PEÇAS QUE VOCÊ JÁ TEM",
@@ -20,7 +20,7 @@ export default function App() {
           "MESMO QUE VOCÊ NÃO ENTENDA NADA DE MODA"
         ]}
         gallery={[
-          "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/GUIA%20ACHADINHOS%20(1).png?raw=true"
+          "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/GUIA%20ACHADINHOS%20(1).png"
         ]}
       />
 
@@ -36,7 +36,7 @@ export default function App() {
           "Está cansada de se sentir mal vestida e quer finalmente ter looks prontos em menos de 5 minutos."
         ]}
         footerText={"Se você se identifica com ao menos 2 itens acima, \n o Protocolo Looks Infinitos é para você!"}
-        sideImage="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/20260309_2357_Image%20Generation_simple_compose_01kkatv6b4f0bv7zxk5v0wzk0p.png?raw=true"
+        sideImage="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260309_2357_Image%20Generation_simple_compose_01kkatv6b4f0bv7zxk5v0wzk0p.png"
       />
 
       {/* 3. Pain Beliefs */}
@@ -50,7 +50,7 @@ export default function App() {
           "“Tento combinar e fica um desastre, parece que sempre falta roupa.”",
           "“Sempre caio no papo da vendedora, compro e nunca uso.”"
         ]}
-        centerVisual="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/20260310_0012_Image%20Generation_simple_compose_01kkavpn06e08bw5m1jpsg8kzc.png?raw=true"
+        centerVisual="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260310_0012_Image%20Generation_simple_compose_01kkavpn06e08bw5m1jpsg8kzc.png"
       />
 
       {/* 4. Agitation Transition */}
@@ -72,17 +72,17 @@ export default function App() {
           {
             title: "Passo 01",
             text: "Limpe seu armário do que te faz parecer desleixada. Chega de guardar roupa que você comprou no impulso e nunca usou. É hora de fazer o que você já tem trabalhar a seu favor.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/20260310_0017_Image%20Generation_simple_compose_01kkavzewpepqr4paxrqwh0vav.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260310_0017_Image%20Generation_simple_compose_01kkavzewpepqr4paxrqwh0vav.png"
           },
           {
             title: "Passo 02",
             text: "Escolha a intenção do seu look antes de sair de casa. O segredo não é saber de moda ou seu estilo ou perfil corporal.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/20260310_0017_Image%20Generation_simple_compose_01kkavyr97e7msmvhes2skskc3.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260310_0017_Image%20Generation_simple_compose_01kkavyr97e7msmvhes2skskc3.png"
           },
           {
             title: "Passo 03",
             text: "Aplique o protocolo para se arrumar em 5 minutos. Você vai seguir um passo a passo simples que te garante sair de casa pronta, impecável e com a segurança de que o seu look está falando exatamente o que você quer passar.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/20260310_0019_Elega%CC%82ncia%20Confiante_simple_compose_01kkaw2997etxrzvbgyey0pvz6.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260310_0019_Elega%CC%82ncia%20Confiante_simple_compose_01kkaw2997etxrzvbgyey0pvz6.png"
           }
         ]}
       />
@@ -109,37 +109,37 @@ export default function App() {
           {
             title: "O Guia “Intenção do Dia”",
             text: "A bússola que você precisava. Aprenda a definir a mensagem que quer passar antes de tocar nas roupas, garantindo que sua imagem esteja sempre alinhada com seus objetivos.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/1.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/1.png"
           },
           {
             title: "O Dicionário de Estilos e Intenções",
             text: "Uma lista completa com cada estilo e a intenção por trás dele. Você nunca mais vai ficar na dúvida se o seu look está transmitir poder, sofisticação ou acessibilidade.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/2.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/2.png"
           },
           {
             title: "O Radar de Peças Estratégicas",
             text: "O guia prático para identificar quais peças no seu armário são verdadeiras “multiplicadoras de looks” e quais estão apenas ocupando espaço e te deixando com cara de desleixada.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/O%20Radar%20de%20Pec%CC%A7as%20Estrate%CC%81gicas.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/O%20Radar%20de%20Pec%CC%A7as%20Estrate%CC%81gicas.png"
           },
           {
             title: "Checklist de Segurança Antes de Sair",
             text: "O check de 30 segundos que evita que você saia de casa insegura. Se o seu look passar por esse checklist, você pode ter certeza: você está impecável.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/Checklist%20de%20Seguranc%CC%A7a%20Antes%20de%20Sair.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Checklist%20de%20Seguranc%CC%A7a%20Antes%20de%20Sair.png"
           },
           {
             title: "Guia de Acessórios Magnéticos",
             text: "Descubra o “pulo do gato”. O acessório certo que muda tudo e transforma um look básico em uma produção digna de capa de revista, sem você precisar comprar roupas novas.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/Guia%20de%20Acesso%CC%81rios%20Magne%CC%81ticos.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Guia%20de%20Acesso%CC%81rios%20Magne%CC%81ticos.png"
           },
           {
             title: "O Protocolo Looks Infinitos",
             text: "O método passo a passo para você dominar o seu armário, aprender a combinar suas peças pela intenção e nunca mais errar na hora de se vestir.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/PROTOCOLO%20LOOKS.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/PROTOCOLO%20LOOKS.png"
           },
           {
             title: "Catálogo com 100 Looks Prontos",
             text: "Não quer pensar? Não pense. Abra o catálogo, copie a combinação com as peças que você já tem e saia de casa pronta.",
-            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png?raw=true"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
           }
         ]}
       />
@@ -161,7 +161,7 @@ export default function App() {
 
       {/* 9. Offer CTA 1 */}
       <OfferSplit 
-        leftImage="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/TUDAO.png?raw=true"
+        leftImage="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/TUDAO.png"
         installmentsText="apenas 9x"
         priceMain="R$ 8,76"
         priceCash="ou R$ 67,00 à vista com desconto"
@@ -212,7 +212,7 @@ export default function App() {
 
       {/* 12. Offer CTA 2 */}
       <OfferSplit 
-        leftImage="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/TUDAO.png?raw=true"
+        leftImage="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/TUDAO.png"
         installmentsText="apenas 9x"
         priceMain="R$ 8,76"
         priceCash="ou R$ 67,00 à vista com desconto"
@@ -229,7 +229,7 @@ export default function App() {
       <Guarantee 
         title="Garantia Incondicional de 7 Dias"
         text="Eu tenho tanta confiança no Protocolo Looks Infinitos que eu te dou uma garantia de 7 dias. Se por qualquer motivo você achar que o protocolo não é para você, basta me enviar um e-mail e eu devolvo 100% do seu dinheiro. Sem perguntas, sem letras miúdas e sem ressentimentos."
-        image="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/SELO%20GARANTIA.png?raw=true"
+        image="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/SELO%20GARANTIA.png"
       />
 
       {/* 13. FAQ */}
