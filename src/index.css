@@ -32,6 +32,15 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
 .markdown-body p {
   @apply mb-4;
 }

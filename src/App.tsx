@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hero, BenefitsWithSideImage, QuoteBlocks, TextBoxEmphasis } from './components/Sections';
+import { Hero, BenefitsWithSideImage, QuoteBlocks, TextBoxEmphasis, Guarantee } from './components/Sections';
 import { StepsCards, TwoColumnChecklist, StackedOfferCards } from './components/OfferSections';
 import { PricingRecap, OfferSplit, ThreeCards } from './components/PricingSections';
 import { ComparisonChoice, FAQ, Footer } from './components/FooterFAQ';
@@ -119,27 +119,27 @@ export default function App() {
           {
             title: "O Radar de Peças Estratégicas",
             text: "O guia prático para identificar quais peças no seu armário são verdadeiras “multiplicadoras de looks” e quais estão apenas ocupando espaço e te deixando com cara de desleixada.",
-            image: "https://picsum.photos/seed/guide3/400/500"
+            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/O%20Radar%20de%20Pec%CC%A7as%20Estrate%CC%81gicas.png?raw=true"
           },
           {
             title: "Checklist de Segurança Antes de Sair",
             text: "O check de 30 segundos que evita que você saia de casa insegura. Se o seu look passar por esse checklist, você pode ter certeza: você está impecável.",
-            image: "https://picsum.photos/seed/guide4/400/500"
+            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/Checklist%20de%20Seguranc%CC%A7a%20Antes%20de%20Sair.png?raw=true"
           },
           {
             title: "Guia de Acessórios Magnéticos",
             text: "Descubra o “pulo do gato”. O acessório certo que muda tudo e transforma um look básico em uma produção digna de capa de revista, sem você precisar comprar roupas novas.",
-            image: "https://picsum.photos/seed/guide5/400/500"
+            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/Guia%20de%20Acesso%CC%81rios%20Magne%CC%81ticos.png?raw=true"
           },
           {
             title: "O Protocolo Looks Infinitos",
             text: "O método passo a passo para você dominar o seu armário, aprender a combinar suas peças pela intenção e nunca mais errar na hora de se vestir.",
-            image: "https://picsum.photos/seed/guide6/400/500"
+            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/PROTOCOLO%20LOOKS.png?raw=true"
           },
           {
             title: "Catálogo com 100 Looks Prontos",
             text: "Não quer pensar? Não pense. Abra o catálogo, copie a combinação com as peças que você já tem e saia de casa pronta.",
-            image: "https://picsum.photos/seed/guide7/400/500"
+            image: "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png?raw=true"
           }
         ]}
       />
@@ -161,7 +161,7 @@ export default function App() {
 
       {/* 9. Offer CTA 1 */}
       <OfferSplit 
-        leftImage="https://picsum.photos/seed/mockup1/600/800"
+        leftImage="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/TUDAO.png?raw=true"
         installmentsText="apenas 9x"
         priceMain="R$ 8,76"
         priceCash="ou R$ 67,00 à vista com desconto"
@@ -190,7 +190,7 @@ export default function App() {
           },
           {
             title: "TUDO PRONTO!",
-            "text": "Agora é só aproveitar seus novos looks.",
+            text: "Agora é só aproveitar seus novos looks.",
             image: "https://img.icons8.com/ios/100/000000/ok.png"
           }
         ]}
@@ -212,7 +212,7 @@ export default function App() {
 
       {/* 12. Offer CTA 2 */}
       <OfferSplit 
-        leftImage="https://picsum.photos/seed/mockup2/600/800"
+        leftImage="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/TUDAO.png?raw=true"
         installmentsText="apenas 9x"
         priceMain="R$ 8,76"
         priceCash="ou R$ 67,00 à vista com desconto"
@@ -223,6 +223,13 @@ export default function App() {
         buttonLabel={ctaLabel}
         buttonUrl={ctaUrl}
         urgency="Condição especial por tempo limitado."
+      />
+
+      {/* 12.5 Guarantee */}
+      <Guarantee 
+        title="Garantia Incondicional de 7 Dias"
+        text="Eu tenho tanta confiança no Protocolo Looks Infinitos que eu te dou uma garantia de 7 dias. Se por qualquer motivo você achar que o protocolo não é para você, basta me enviar um e-mail e eu devolvo 100% do seu dinheiro. Sem perguntas, sem letras miúdas e sem ressentimentos."
+        image="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/SELO%20GARANTIA.png?raw=true"
       />
 
       {/* 13. FAQ */}
