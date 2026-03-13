@@ -14,11 +14,9 @@ export default function App() {
       <Hero 
         logo="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/LOGO.png"
         headline={
-          <>
-            Descubra como combinar <span className="text-olive">+100 looks diferentes</span><br />
-            usando <span className="text-olive">peças que já tem</span><br />
-            sem precisar <span className="text-olive">gastar</span> dinheiro
-          </>
+          <div className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">
+            Descubra como combinar <span className="text-olive">+100 looks diferentes</span> usando <span className="text-olive">peças que já tem</span> sem precisar <span className="text-olive">gastar</span> dinheiro
+          </div>
         }
         badges={[
           "✅ Para todas as ocasiões",
