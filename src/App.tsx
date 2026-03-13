@@ -24,7 +24,7 @@ export default function App() {
           "✅ Mesmo que você não entenda nada de moda"
         ]}
         gallery={[
-          "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/GUIA%20ACHADINHOS%20(3).png?raw=true"
+          "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/GUIA%20ACHADINHOS%20(3).png"
         ]}
       />
 
@@ -40,7 +40,7 @@ export default function App() {
           "Sonha em ficar pronta em 5 minutos para qualquer ocasião"
         ]}
         footerText={"Se você se identifica com ao menos 2 itens acima, \n o Protocolo Looks Infinitos é para você!"}
-        sideImage="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/20260313_0107_Image%20Generation_remix_01kkjp0pdve4d9927rj0x238f3.png?raw=true"
+        sideImage="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260313_0107_Image%20Generation_remix_01kkjp0pdve4d9927rj0x238f3.png"
       />
 
       {/* 3. Pain Beliefs */}
@@ -54,7 +54,7 @@ export default function App() {
           "“Tento combinar e fica um desastre, parece que sempre falta roupa.”",
           "“Sempre caio no papo da vendedora, compro e nunca uso.”"
         ]}
-        centerVisual="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/20260313_0110_Image%20Generation_remix_01kkjp4fknefsvvz4h8t75xkqb.png?raw=true"
+        centerVisual="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260313_0110_Image%20Generation_remix_01kkjp4fknefsvvz4h8t75xkqb.png"
       />
 
       {/* 4. Agitation Transition */}
