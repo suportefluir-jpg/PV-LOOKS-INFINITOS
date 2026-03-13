@@ -4,7 +4,7 @@ import { Badge, Button, SectionWrapper, FadeIn, StaggerContainer, StaggerItem } 
 
 export const Hero: React.FC<{
   logo?: string;
-  headline: string;
+  headline: React.ReactNode;
   badges: string[];
   gallery: string[];
   ctaLabel?: string;
@@ -22,7 +22,7 @@ export const Hero: React.FC<{
         )}
         
         <FadeIn delay={0.2}>
-          <h1 className="text-xl md:text-2xl lg:text-3xl leading-tight mb-4 max-w-4xl mx-auto">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight mb-8 max-w-5xl mx-auto tracking-tighter">
             {headline}
           </h1>
         </FadeIn>
@@ -188,40 +188,38 @@ export const TextBoxEmphasis: React.FC<{
   paragraphs: string[];
   highlightCtaText: string;
   ctaUrl?: string;
-}> = ({ paragraphs, highlightCtaText, ctaUrl }) => {
+  background?: string;
+}> = ({ paragraphs, highlightCtaText, ctaUrl, background }) => {
   return (
-    <SectionWrapper id="agitation_transition">
-      <div className="max-w-5xl mx-auto space-y-12">
-        <FadeIn direction="right">
-          <div className="bg-olive p-8 md:p-12 rounded-[40px] text-white text-center shadow-lg transition-transform duration-300 hover:scale-[1.02]">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6">
-              {paragraphs[0]}
-            </h3>
-            <p className="text-lg md:text-xl leading-relaxed mb-8 max-w-3xl mx-auto">
-              {paragraphs[1]}
-            </p>
-            <p className="text-lg md:text-xl italic">
-              {paragraphs[2]}
-            </p>
-          </div>
-        </FadeIn>
-
-        <FadeIn direction="left" delay={0.2}>
-          <div className="bg-gold p-8 md:p-12 rounded-[40px] text-white text-center shadow-lg transition-transform duration-300 hover:scale-[1.02]">
-            <div className="max-w-3xl mx-auto space-y-6 mb-8">
+    <SectionWrapper id="agitation_transition" background={background}>
+      <div className="max-w-4xl mx-auto">
+        <FadeIn>
+          <div className="bg-white p-8 md:p-12 rounded-[40px] text-center shadow-2xl border-4 border-gold transition-transform duration-300 hover:scale-[1.01]">
+            <div className="space-y-6 text-gray-800">
+              <h3 className="text-2xl md:text-3xl font-bold">
+                {paragraphs[0]}
+              </h3>
+              <p className="text-lg md:text-xl leading-relaxed">
+                {paragraphs[1]}
+              </p>
+              <p className="text-xl md:text-2xl font-bold text-olive italic">
+                {paragraphs[2]}
+              </p>
               <p className="text-lg md:text-xl leading-relaxed">
                 {paragraphs[3]}
               </p>
-              <p className="text-lg md:text-xl leading-relaxed">
+              <p className="text-lg md:text-xl leading-relaxed font-bold">
                 {paragraphs[4]}
               </p>
+              <div className="pt-4">
+                <h3 className="text-2xl md:text-3xl font-black text-olive leading-tight">
+                  {highlightCtaText}
+                </h3>
+              </div>
             </div>
-            <h3 className="text-xl md:text-2xl font-bold max-w-2xl mx-auto">
-              {highlightCtaText}
-            </h3>
             {ctaUrl && (
               <div className="pt-8">
-                <Button href={ctaUrl} variant="secondary" size="xl">
+                <Button href={ctaUrl} size="xl">
                   QUERO O PROTOCOLO AGORA
                 </Button>
               </div>

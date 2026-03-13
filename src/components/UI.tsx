@@ -19,7 +19,7 @@ export const Button: React.FC<ButtonProps> = ({
   size = 'lg',
   href
 }) => {
-  const baseStyles = "inline-flex items-center justify-center font-bold uppercase tracking-wider transition-all duration-300 rounded-button focus:outline-none focus:ring-2 focus:ring-offset-2";
+  const baseStyles = "inline-flex items-center justify-center font-bold tracking-wider transition-all duration-300 rounded-button focus:outline-none focus:ring-2 focus:ring-offset-2";
   
   const variants = {
     primary: "bg-green-button text-white hover:bg-opacity-90 shadow-lg hover:shadow-xl transform hover:-translate-y-1",
@@ -85,7 +85,7 @@ export const SectionWrapper: React.FC<{
 };
 
 export const Badge: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className = '' }) => (
-  <span className={`inline-block px-3 py-1 bg-olive text-white text-[10px] md:text-xs font-bold uppercase tracking-widest rounded-full ${className}`}>
+  <span className={`inline-block px-3 py-1 bg-olive text-white text-[10px] md:text-xs font-bold tracking-widest rounded-full ${className}`}>
     {children}
   </span>
 );

@@ -13,14 +13,20 @@ export default function App() {
       {/* 1. Hero */}
       <Hero 
         logo="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/LOGO.png"
-        headline="Descubra como montar looks diferentes todos os dias, sem precisar saber qual é o seu estilo e perder dinheiro com peças que não combinam com você"
+        headline={
+          <>
+            Descubra como combinar <span className="text-olive">+100 looks diferentes</span><br />
+            usando <span className="text-olive">peças que já tem</span><br />
+            sem precisar <span className="text-olive">gastar</span> dinheiro
+          </>
+        }
         badges={[
-          "USANDO PEÇAS QUE VOCÊ JÁ TEM",
-          "ECONOMIZANDO DINHEIRO",
-          "MESMO QUE VOCÊ NÃO ENTENDA NADA DE MODA"
+          "✅ Para todas as ocasiões",
+          "✅ Economizando dinheiro",
+          "✅ Mesmo que você não entenda nada de moda"
         ]}
         gallery={[
-          "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/GUIA%20ACHADINHOS%20(1).png"
+          "https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/GUIA%20ACHADINHOS%20(3).png?raw=true"
         ]}
       />
 
@@ -28,15 +34,15 @@ export default function App() {
       <BenefitsWithSideImage 
         title={"O Protocolo Looks Infinitos é \n para você, mulher, que..."}
         bullets={[
-          "Sente que tem um “cemitério de roupas” e gasta com peças novas porque não sabe combinar as que já tem.",
-          "Se sente “fantasiada” ou básica demais toda vez que tenta montar uma combinação por conta própria.",
-          "Já comprou peças “lindas” por impulso e hoje elas estão ocupando espaço, com etiqueta, sem ver a luz do dia.",
-          "Tem vontade de chorar na frente do armário por sentir que, mesmo cheia de roupa, não tem nada para vestir.",
-          "Quer parar de enterrar dinheiro e deseja aprender a ser estratégica com o que já possui no guarda-roupa.",
-          "Está cansada de se sentir mal vestida e quer finalmente ter looks prontos em menos de 5 minutos."
+          "Tá com o armário cheio de roupas, mas \"sem nada pra vestir\"",
+          "Vive gastando dinheiro em \"brusinhas\"",
+          "Se sente \"fantasiada\" quando tenta sair do básico",
+          "Perde um tempão (e a paciência) se trocando",
+          "Quer parar de gastar e começar a saber usar o que compra",
+          "Sonha em ficar pronta em 5 minutos para qualquer ocasião"
         ]}
         footerText={"Se você se identifica com ao menos 2 itens acima, \n o Protocolo Looks Infinitos é para você!"}
-        sideImage="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260309_2357_Image%20Generation_simple_compose_01kkatv6b4f0bv7zxk5v0wzk0p.png"
+        sideImage="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/20260313_0107_Image%20Generation_remix_01kkjp0pdve4d9927rj0x238f3.png?raw=true"
       />
 
       {/* 3. Pain Beliefs */}
@@ -50,16 +56,17 @@ export default function App() {
           "“Tento combinar e fica um desastre, parece que sempre falta roupa.”",
           "“Sempre caio no papo da vendedora, compro e nunca uso.”"
         ]}
-        centerVisual="https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260310_0012_Image%20Generation_simple_compose_01kkavpn06e08bw5m1jpsg8kzc.png"
+        centerVisual="https://github.com/suportefluir-jpg/PVLOOKS-IMAGES/blob/main/20260313_0110_Image%20Generation_remix_01kkjp4fknefsvvz4h8t75xkqb.png?raw=true"
       />
 
       {/* 4. Agitation Transition */}
       <TextBoxEmphasis 
+        background="#7f8b79"
         paragraphs={[
           "Você sabe do que eu estou falando, não é mesmo?",
           "Você não aguenta mais gastar com roupas que ficam paradas no armário. Você termina o dia exausta, frustrada e com a sensação de estar sempre mal vestida, mesmo tendo um guarda-roupa cheio.",
           "Agora eu te pergunto...",
-          "Se você pudesse aprender a criar combinações com cara de rica usando apenas as peças que você já tem...",
+          "Se você pudesse aprender a criar combinações elegantes e perfeitas para qualquer ocasião, usando apenas as peças que você já tem...",
           "Isso mudaria a sua confiança e o seu bolso?"
         ]}
         highlightCtaText="Se a sua resposta for “SIM”, o Protocolo Looks Infinitos é para você."
@@ -67,7 +74,7 @@ export default function App() {
 
       {/* 5. Three Steps */}
       <StepsCards 
-        title="Seguindo esses 3 passos, você vai aprender a fazer fazer mais de 100 combinações de rica com as peças que você já tem:"
+        title="Seguindo esses 3 passos, você vai aprender a estar elegante e bonita para qualquer ocasião"
         steps={[
           {
             title: "Passo 01",
@@ -76,12 +83,12 @@ export default function App() {
           },
           {
             title: "Passo 02",
-            text: "Escolha a intenção do seu look antes de sair de casa. O segredo não é saber de moda ou seu estilo ou perfil corporal.",
+            text: "Escolha a intenção do seu look antes de sair de casa, estando bem vestido para seu compromisso. O segredo não é saber de moda ou seu estilo ou perfil corporal.",
             image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260310_0017_Image%20Generation_simple_compose_01kkavyr97e7msmvhes2skskc3.png"
           },
           {
             title: "Passo 03",
-            text: "Aplique o protocolo para se arrumar em 5 minutos. Você vai seguir um passo a passo simples que te garante sair de casa pronta, impecável e com a segurança de que o seu look está falando exatamente o que você quer passar.",
+            text: "Aplique o protocolo para se arrumar em 5 minutos que te garante sair de casa pronta, impecável e com a segurança de que o seu look está falando exatamente o que você quer passar.",
             image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/20260310_0019_Elega%CC%82ncia%20Confiante_simple_compose_01kkaw2997etxrzvbgyey0pvz6.png"
           }
         ]}
@@ -98,47 +105,78 @@ export default function App() {
         itemsRight={[
           "Se sentir elegante e segura em menos de 5 minutos.",
           "Destravar combinações que você nem imaginava que existiam.",
-          "Resgatar sua autoestima e o prazer de se olhar no espelho."
+          "Resgatar sua autoestima e o prazer de se olhar no espelho.",
+          "Facilitando muito a vida na hora de se vestir"
         ]}
       />
 
       {/* 7. Deliverables */}
       <StackedOfferCards 
-        title={"Veja tudo o que você vai receber para ter \n +100 combinações de looks:"}
+        title={"Veja tudo o que você vai receber para ter \n looks infinitos e elegantes:"}
         items={[
           {
-            title: "O Guia “Intenção do Dia”",
-            text: "A bússola que você precisava. Aprenda a definir a mensagem que quer passar antes de tocar nas roupas, garantindo que sua imagem esteja sempre alinhada com seus objetivos.",
-            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/1.png"
-          },
-          {
-            title: "O Dicionário de Estilos e Intenções",
-            text: "Uma lista completa com cada estilo e a intenção por trás dele. Você nunca mais vai ficar na dúvida se o seu look está transmitir poder, sofisticação ou acessibilidade.",
-            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/2.png"
-          },
-          {
-            title: "O Radar de Peças Estratégicas",
-            text: "O guia prático para identificar quais peças no seu armário são verdadeiras “multiplicadoras de looks” e quais estão apenas ocupando espaço e te deixando com cara de desleixada.",
-            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/O%20Radar%20de%20Pec%CC%A7as%20Estrate%CC%81gicas.png"
-          },
-          {
-            title: "Checklist de Segurança Antes de Sair",
+            title: "Checklist Anti-Erro Antes de Sair",
             text: "O check de 30 segundos que evita que você saia de casa insegura. Se o seu look passar por esse checklist, você pode ter certeza: você está impecável.",
             image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Checklist%20de%20Seguranc%CC%A7a%20Antes%20de%20Sair.png"
           },
           {
-            title: "Guia de Acessórios Magnéticos",
-            text: "Descubra o “pulo do gato”. O acessório certo que muda tudo e transforma um look básico em uma produção digna de capa de revista, sem você precisar comprar roupas novas.",
-            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Guia%20de%20Acesso%CC%81rios%20Magne%CC%81ticos.png"
+            title: "Radar das Peças que Criam Mais Looks",
+            text: "O guia prático para identificar quais peças no seu armário são verdadeiras “multiplicadoras de looks” e quais estão apenas ocupando espaço.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/O%20Radar%20de%20Pec%CC%A7as%20Estrate%CC%81gicas.png"
           },
           {
-            title: "O Protocolo Looks Infinitos",
-            text: "O método passo a passo para você dominar o seu armário, aprender a combinar suas peças pela intenção e nunca mais errar na hora de se vestir.",
+            title: "Looks Infinitos para Trabalhar",
+            text: "Aprenda a montar combinações que transmitem profissionalismo e competência, sem perder a sua essência e o conforto necessário.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
+          },
+          {
+            title: "Looks Infinitos para Jantar ou Encontro",
+            text: "Looks estratégicos para momentos especiais, onde você quer se sentir bonita, confiante e adequada ao ambiente.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
+          },
+          {
+            title: "Looks Infinitos para o Dia a Dia",
+            text: "Praticidade é a palavra de ordem. Tenha looks prontos para as tarefas rotineiras, mantendo sempre o estilo e a elegância.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
+          },
+          {
+            title: "Looks Infinitos para Eventos",
+            text: "Seja um casamento, batizado ou festa, saiba exatamente como se vestir para brilhar em qualquer evento social.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
+          },
+          {
+            title: "O Mapa do Armário Inteligente",
+            text: "Aprenda a organizar e visualizar seu guarda-roupa de forma que todas as peças se conversem entre si, facilitando a sua vida.",
             image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/PROTOCOLO%20LOOKS.png"
           },
           {
-            title: "Catálogo com 100 Looks Prontos",
-            text: "Não quer pensar? Não pense. Abra o catálogo, copie a combinação com as peças que você já tem e saia de casa pronta.",
+            title: "Guia de Acessórios Magnéticos",
+            text: "Descubra como o acessório certo transforma um look básico em uma produção digna de capa de revista.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Guia%20de%20Acesso%CC%81rios%20Magne%CC%81ticos.png"
+          },
+          {
+            title: "Combinações que passam Autoridade",
+            text: "Looks focados em transmitir liderança, seriedade e respeito, ideais para reuniões e momentos decisivos.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
+          },
+          {
+            title: "Combinações que passam Elegância",
+            text: "O segredo da sofisticação sem esforço. Aprenda a usar cores e cortes que elevam instantaneamente a sua imagem.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
+          },
+          {
+            title: "Combinações que passam Sensualidade",
+            text: "Aprenda a dosar a sensualidade de forma elegante e estratégica, valorizando seus pontos fortes com sutileza.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
+          },
+          {
+            title: "Combinações que passam Criatividade",
+            text: "Para quem gosta de ousar. Aprenda a misturar texturas, cores e estampas de forma harmônica e autêntica.",
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
+          },
+          {
+            title: "Combinações que passam Praticidade",
+            text: "Foco total em agilidade. Looks funcionais para quem tem a vida corrida mas não abre mão de estar bem vestida.",
             image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
           }
         ]}
@@ -148,15 +186,21 @@ export default function App() {
       <PricingRecap 
         title="Recapitulando tudo que você vai receber no Protocolo Looks Infinitos:"
         priceItems={[
-          { name: "O Guia “Intenção do Dia”", price: "R$ 77" },
-          { name: "O Dicionário de Estilos e Intenções", price: "R$ 97" },
-          { name: "O Radar de Peças Estratégicas", price: "R$ 67" },
-          { name: "Checklist de Segurança Antes de Sair", price: "R$ 97" },
+          { name: "Checklist Anti-Erro Antes de Sair", price: "R$ 97" },
+          { name: "Radar das Peças que Criam Mais Looks", price: "R$ 67" },
+          { name: "Looks Infinitos para Trabalhar", price: "R$ 97" },
+          { name: "Looks Infinitos para Jantar ou Encontro", price: "R$ 97" },
+          { name: "Looks Infinitos para o Dia a Dia", price: "R$ 97" },
+          { name: "Looks Infinitos para Eventos", price: "R$ 97" },
+          { name: "O Mapa do Armário Inteligente", price: "R$ 77" },
           { name: "Guia de Acessórios Magnéticos", price: "R$ 97" },
-          { name: "O Protocolo Looks Infinitos", price: "R$ 37" },
-          { name: "Catálogo com 100 Looks Prontos", price: "R$ 99" }
+          { name: "Combinações que passam Autoridade", price: "R$ 47" },
+          { name: "Combinações que passam Elegância", price: "R$ 47" },
+          { name: "Combinações que passam Sensualidade", price: "R$ 47" },
+          { name: "Combinações que passam Criatividade", price: "R$ 47" },
+          { name: "Combinações que passam Praticidade", price: "R$ 47" }
         ]}
-        totalText={"Tudo isso deveria custar R$571. Mas hoje \n você vai ter acesso por apenas:"}
+        totalText={"Tudo isso deveria custar R$957. Mas hoje \n você vai ter acesso por apenas:"}
       />
 
       {/* 9. Offer CTA 1 */}
