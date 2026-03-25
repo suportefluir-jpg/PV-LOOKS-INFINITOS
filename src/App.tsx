@@ -24,7 +24,7 @@ export default function App() {
           "✅ Mesmo que você não entenda nada de moda"
         ]}
         gallery={[
-          "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/GUIA%20ACHADINHOS%20(3).png"
+          "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/GUIA%20ACHADINHOS%20(4).png"
         ]}
       />
 
@@ -125,7 +125,7 @@ export default function App() {
           {
             title: "Looks Infinitos para Trabalhar",
             text: "Aprenda a montar combinações que transmitem profissionalismo e competência, sem perder a sua essência e o conforto necessário.",
-            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Cata%CC%81logo%20com%20100%20Looks%20Prontos.png"
+            image: "https://raw.githubusercontent.com/suportefluir-jpg/PVLOOKS-IMAGES/main/Gemini_Generated_Image_3amh3j3amh3j3amh.png"
           },
           {
             title: "Looks Infinitos para Jantar ou Encontro",
